@@ -279,6 +279,7 @@ static void lcd_implementation_init() {
       }
     #endif // SHOW_CUSTOM_BOOTSCREEN
 
+/*
     const uint8_t offx = (u8g.getWidth() - (START_BMPWIDTH)) / 2;
 
     #if ENABLED(START_BMPHIGH)
@@ -293,6 +294,7 @@ static void lcd_implementation_init() {
       u8g.firstPage();
       do {
         u8g.drawBitmapP(offx, offy, START_BMPBYTEWIDTH, START_BMPHEIGHT, start_bmp);
+        
         lcd_setFont(FONT_MENU);
         #ifndef STRING_SPLASH_LINE2
           u8g.drawStr(txt1X, u8g.getHeight() - (DOG_CHAR_HEIGHT), STRING_SPLASH_LINE1);
@@ -301,9 +303,10 @@ static void lcd_implementation_init() {
           u8g.drawStr(txt1X, u8g.getHeight() - (DOG_CHAR_HEIGHT) * 3 / 2, STRING_SPLASH_LINE1);
           u8g.drawStr(txt2X, u8g.getHeight() - (DOG_CHAR_HEIGHT) * 1 / 2, STRING_SPLASH_LINE2);
         #endif
+        
       } while (u8g.nextPage());
     }
-
+*/
     show_bootscreen = false;
 
   #endif // SHOW_BOOTSCREEN
