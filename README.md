@@ -7,6 +7,9 @@ Please test this firmware and inform us if it misbehaves in any way, volunteers 
 
 ## Release Candidate -- Marlin 1.1.0-RCBugFix - 6 Dec 2016
 ## Configured for Malyan M150
+ABL Bilinear 3x3 Mesh configured for use with HoolyHoo sensor mount.
+HoolyHoo Mount - http://www.thingiverse.com/thing:1960419
+Printed the 20mm Cube OK, but other than that testing has been limited so far.
 
 __Not for production use – use with caution!__
 
