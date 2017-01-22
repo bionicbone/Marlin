@@ -756,7 +756,7 @@
 //============================ Mesh Bed Leveling ============================
 //===========================================================================
 
-#define MESH_BED_LEVELING    // Enable mesh bed leveling.
+//#define MESH_BED_LEVELING    // Enable mesh bed leveling.
 
 #if ENABLED(MESH_BED_LEVELING)
   #define MESH_INSET 10        // Mesh inset margin on print area
@@ -808,7 +808,7 @@
 // - LINEAR - Not Available on Malyan M150 due to compile memory issues
 // - Use MESH_BED_LEVELING, AUTO_BED_LEVELING_3POINT or AUTO_BED_LEVELING_BILINEAR
 //#define AUTO_BED_LEVELING_3POINT
-//#define AUTO_BED_LEVELING_LINEAR
+#define AUTO_BED_LEVELING_LINEAR
 //#define AUTO_BED_LEVELING_BILINEAR
 
 /**
