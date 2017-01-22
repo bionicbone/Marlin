@@ -17,6 +17,10 @@ avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC
 ==========================================
 avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncDec16Fixes_ABL_Linear3Point_HooyHoo_Mount.hex
 
+Mesh 7x7 - RC8 BugFix (Dec 2016) Under Test
+==========================================
+avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncDec16Fixes_ABL_Mesh7x7_HooyHoo_Mount.hex
+
 
 RC8 by Ghostface - RC 8 Only - No Fixes
 =======================================
