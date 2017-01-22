@@ -590,6 +590,7 @@
 
 // Set for HoolyHoo's probe mount
 // http://www.thingiverse.com/thing:1960419
+// Note: HoolyHoo mount is X=35, Y=-50.
 #define X_PROBE_OFFSET_FROM_EXTRUDER 35  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -50  // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
@@ -734,7 +735,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS 200
 #define Y_MAX_POS 200
-#define Z_MAX_POS 200
+#define Z_MAX_POS 180
 
 /**
  * Filament Runout Sensor
@@ -806,9 +807,9 @@
  */
 // - LINEAR - Not Available on Malyan M150 due to compile memory issues
 // - Use MESH_BED_LEVELING, AUTO_BED_LEVELING_3POINT or AUTO_BED_LEVELING_BILINEAR
-//#define AUTO_BED_LEVELING_3POINT
+#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-#define AUTO_BED_LEVELING_BILINEAR
+//#define AUTO_BED_LEVELING_BILINEAR
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.

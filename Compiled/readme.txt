@@ -9,13 +9,17 @@ Usage:
 
 execute 
  
-RC8 Under Test
-==============
+BiLinear 3x3 - RC8 BugFix (Dec 2016) Under Test
+===============================================
 avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncDec16Fixes_ABL_BiLinearMesh3x3_HooyHoo_Mount.hex
 
+3 Point - RC8 BugFix (Dec 2016) Under Test
+==========================================
+avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncDec16Fixes_ABL_Linear3Point_HooyHoo_Mount.hex
 
-RC8 by Ghostface 
-================
+
+RC8 by Ghostface - RC 8 Only - No Fixes
+=======================================
 claims to have good results but is 100+ commits behind the latest bugfixes
 avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:Marlin_M150_RC8_v2_Ghostface.hex
 M150 config RC8
