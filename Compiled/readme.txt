@@ -8,6 +8,10 @@ Usage:
 6. Look up COM port from windows device manager. 
 
 execute 
+
+No ABL - RC8 BugFix (Jan 2017) Under Test
+===============================================
+avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_No_ABL.hex
  
 BiLinear 3x3 - RC8 BugFix (Jan 2017) Under Test
 ===============================================
@@ -16,6 +20,7 @@ avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC
 3 Point - RC8 BugFix (Jan 2017) Under Test
 ==========================================
 avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_3Point_HooyHoo_Mount.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_NozzleWipe_ABL_3Point_HooyHoo_Mount.hex
 
 Mesh 7x7 - RC8 BugFix (Jan 2017) Under Test
 ==========================================
