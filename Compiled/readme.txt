@@ -9,8 +9,8 @@ Usage:
 
 execute 
 
-No ABL - RC8 BugFix (Jan 2017) Under Test
-===============================================
+No ABL - RC8 BugFix (Jan 2017) Under Test, compiled by Gunther Vermeir (facebook)
+=================================================================================
 avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_No_ABL.hex
  
 BiLinear 3x3 - RC8 BugFix (Jan 2017) Under Test
