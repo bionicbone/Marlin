@@ -9,28 +9,33 @@ Usage:
 
 execute 
 
-No ABL - RC8 BugFix (Jan 2017) Under Test, compiled by Gunther Vermeir (facebook)
-=================================================================================
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_No_ABL.hex
+3 Point - RC8 BugFix (Jan 2017) BionicBone's Prefered solution.
+===============================================================
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_3Point_HooyHoo_Mount_Bio_Best.hex
+
+No ABL - RC8 BugFix (Jan 2017) Under Test
+===============================================
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_No_ABL.hex
  
 BiLinear 3x3 - RC8 BugFix (Jan 2017) Under Test
 ===============================================
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_BiLinearMesh3x3_HooyHoo_Mount.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_BiLinearMesh3x3_HooyHoo_Mount.hex
 
 3 Point - RC8 BugFix (Jan 2017) Under Test
 ==========================================
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_3Point_HooyHoo_Mount.hex
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_NozzleWipe_ABL_3Point_HooyHoo_Mount.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_3Point_HooyHoo_Mount.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_NozzleWipe_ABL_3Point_HooyHoo_Mount.hex
+
 
 Mesh 7x7 - RC8 BugFix (Jan 2017) Under Test
 ==========================================
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_Mesh7x7_HooyHoo_Mount.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:MarlinRC8_IncJan17Fixes_ABL_Mesh7x7_HooyHoo_Mount.hex
 
 
 RC8 by Ghostface - RC 8 Only - No Fixes
 =======================================
 claims to have good results but is 100+ commits behind the latest bugfixes
-avrdude.exe -v -p atmega1284p -c arduino -P com6 -b 57600 -V -U flash:w:Marlin_M150_RC8_v2_Ghostface.hex
+avrdude.exe -v -p atmega1284p -c arduino -P com3 -b 57600 -V -U flash:w:Marlin_M150_RC8_v2_Ghostface.hex
 M150 config RC8
 
 -control
